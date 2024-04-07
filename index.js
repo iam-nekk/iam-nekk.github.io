@@ -53,8 +53,8 @@ async function digestMessage(message) {
   return hashHex;
 }
 
-const pw = "fruitful"
-const txt = "<h1>Thats fucking football right there.</h1> None of that pansy ass dick tugging smile for the camera bullshit. Men puke, men poop on the field, men deliver their new born baby on the side lines. Fucking hard core dick in the ass butterball foosball fuck it chuck it game time shit. Football is back, baby"
-console.log(pw, await digestMessage(pw),txt, await encrypt(txt,pw))
+// const pw = ""
+// const txt = ""
+// console.log(pw, await digestMessage(pw),txt, await encrypt(txt,pw))
 
 // digestMessage(text).then((digestHex) => console.log(digestHex));
